@@ -1086,7 +1086,6 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
 }
 input,
 button,
@@ -1583,10 +1582,13 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background: #9AC9A9;
+  height: 100%;
+  overflow: visible;
 }
 @media (min-width: 768px) {
   .container {
@@ -2250,7 +2252,8 @@ pre code {
   }
 }
 table {
-  background-color: transparent;
+    background-color:#4B877C;
+    color:white;
 }
 caption {
   padding-top: 8px;
@@ -2292,9 +2295,7 @@ th {
 .table > tbody + tbody {
   border-top: 2px solid #ddd;
 }
-.table .table {
-  background-color: #fff;
-}
+
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
 .table-condensed > tfoot > tr > th,
@@ -4168,7 +4169,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height:60px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4604,10 +4605,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #9d9d9d;
+  color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4623,7 +4624,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: #444;
+  color: #fff;
   background-color: transparent;
 }
 .navbar-inverse .navbar-toggle {

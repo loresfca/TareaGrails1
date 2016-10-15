@@ -44,8 +44,9 @@ pre {
 
 }
 .navbar-default, .navbar-static-top {
-    background-color: #4D8618;
-    border: 0px;
+    background-color:#2F4D48;
+    color:white;
+    border:0px;
 }
 a.navbar-brand {
     color: white !important;
@@ -508,7 +509,7 @@ h8 {
     position: relative;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 5%
+    padding: 2%
 }
 
 .row:before, .row:after {
@@ -822,7 +823,7 @@ ul.nav-sidebar li.active a {
 }
 
 body {
-    background: #444
+
 }
 
 html.noScroll {

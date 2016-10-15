@@ -1,7 +1,8 @@
 /* FONT STACK */
 body,
 input, select, textarea {
-    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#2D3C66;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,8 +34,7 @@ html * {
 }
 
 body {
-    background: #ffffff;
-    color: #333333;
+   color:#2D3C66;
     overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
     -moz-box-shadow: 0 0 0.3em #4D8618;
     -webkit-box-shadow: 0 0 0.3em #4D8618;
@@ -84,7 +84,7 @@ img {
 }
 
 .footer {
-    background: #48802c;
+    background: ##994C49;
     color: #000;
     clear: both;
     font-size: 0.8em;
@@ -572,3 +572,61 @@ img.grails-logo {
     height:340px;
     margin-top:-10px;
 }
+
+
+
+.boton_menu1 {
+    text-align: center;
+    padding-top: 10vmin;
+    padding-bottom: 10vmin;
+    color:#9AC9A9;
+    font-size: 16px;
+}
+.boton_menu1 hr{
+  border: 2px solid;
+  background:#9AC9A9;
+}
+.boton_menu1 label{
+  padding-top: 10%;
+}
+.boton_menu1:hover {
+    padding-top: 10vmin;
+    padding-bottom: 10vmin;
+    background: #9AC9A9;
+    color:#3F3F3F;
+    font-size:20px;
+}
+
+.espacio {
+    height:20%;
+}
+
+.img1 {
+    height: 50%;
+    width: 50%;
+    margin-bottom:10%;
+}
+
+body{
+    background:#4B877C;
+}
+
+.barra2 {
+    background:#B5EDDA;
+    color:#2D3C66;
+}
+
+
+
+
+
+.thead {
+    background: #4B877C;
+    color:white;
+}
+
+.sel {
+    color: #2D3C66;
+}
+
+

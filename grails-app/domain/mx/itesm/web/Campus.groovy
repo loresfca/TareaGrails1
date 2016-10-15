@@ -8,6 +8,6 @@ class Campus {
 
 
     static constraints = {
-    	nombre nullable: false, unique: false, blank:false
+    	nombre nullable: false, unique: true, blank:false
     }
 }

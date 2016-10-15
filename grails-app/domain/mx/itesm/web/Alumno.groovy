@@ -5,6 +5,8 @@ class Alumno {
 	String nombre
 	String matricula
 	String apellido
+    String correo
+    String direccion
 	Carrera carrera
     Campus campus
 
